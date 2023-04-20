@@ -1,7 +1,7 @@
 name: Output information
 on: workflow_dispatch
 jobs:
-  test:
+  output:
     runs-on: ubuntu-latest
     steps:
       - name: Output github context
